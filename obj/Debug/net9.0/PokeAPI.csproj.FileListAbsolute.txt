@@ -15,3 +15,4 @@ C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\refint\PokeAPI.dll
 C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.pdb
 C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.genruntimeconfig.cache
 C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\ref\PokeAPI.dll
+C:\Users\rmarchetto\Source\Repos\PokeAPI\obj\Debug\net9.0\PokeAPI.sourcelink.json

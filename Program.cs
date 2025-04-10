@@ -12,7 +12,8 @@ class Program
 
   static async Task ListPokemonsAsync()
   {
-    string url = "https://pokeapi.co/api/v2/pokemon?limit=10"; // Fetch 10 Pokémons
+    // Para listar os 150 primeiros Pokemons (primeira geração)
+    string url = "https://pokeapi.co/api/v2/pokemon?limit=150"; 
 
     using HttpClient client = new HttpClient();
     HttpResponseMessage response = await client.GetAsync(url);
@@ -24,12 +25,13 @@ class Program
 
       foreach (var item in data["results"])
       {
-        Console.WriteLine($"Name: {item["name"]}");
+        string pokemonUrl = item["url"].ToString();
+        HttpResponseMessage pokemonResponse = await client.GetAsync(pokemonUrl);
+        string pokemonJson = await pokemonResponse.Content.ReadAsStringAsync();
+        JObject pokemonData = JObject.Parse(pokemonJson);
+
+        Console.WriteLine($"Order: {pokemonData["id"]}, Name: {item["name"]}");
       }
-    }
-    else
-    {
-      Console.WriteLine("Error fetching data.");
     }
   }
 }

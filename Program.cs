@@ -3,6 +3,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
+// Decidi utilizar C# por ser a linguagem na qual tenho maior expertise 
+// e experiência prática recente
 class Program
 {
   static async Task Main()

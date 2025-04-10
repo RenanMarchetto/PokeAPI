@@ -1,0 +1,17 @@
+C:\Users\rmarchetto\source\repos\PokeAPI\bin\Debug\net9.0\PokeAPI.exe
+C:\Users\rmarchetto\source\repos\PokeAPI\bin\Debug\net9.0\PokeAPI.deps.json
+C:\Users\rmarchetto\source\repos\PokeAPI\bin\Debug\net9.0\PokeAPI.runtimeconfig.json
+C:\Users\rmarchetto\source\repos\PokeAPI\bin\Debug\net9.0\PokeAPI.dll
+C:\Users\rmarchetto\source\repos\PokeAPI\bin\Debug\net9.0\PokeAPI.pdb
+C:\Users\rmarchetto\source\repos\PokeAPI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.csproj.AssemblyReference.cache
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.AssemblyInfoInputs.cache
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.AssemblyInfo.cs
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.csproj.CoreCompileInputs.cache
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.csproj.Up2Date
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.dll
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\refint\PokeAPI.dll
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.pdb
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\PokeAPI.genruntimeconfig.cache
+C:\Users\rmarchetto\source\repos\PokeAPI\obj\Debug\net9.0\ref\PokeAPI.dll

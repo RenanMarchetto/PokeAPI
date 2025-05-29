@@ -30,7 +30,10 @@ class Program
         string pokemonJson = await pokemonResponse.Content.ReadAsStringAsync();
         JObject pokemonData = JObject.Parse(pokemonJson);
 
-        Console.WriteLine($"Order: {pokemonData["id"]}, Name: {item["name"]}");
+        var types = pokemonData["types"];
+        string typeNames = string.Join(", ", types.Select(t => t["type"]["name"].ToString()));
+
+        Console.WriteLine($"Order: {pokemonData["id"]}, Name: {item["name"]}, Types: {typeNames}");
       }
     }
   }

@@ -11,6 +11,9 @@ class Program
   {
     // Listar Pokemons da primeira geração no Console
     await ListPokemonsAsync();
+
+    Console.WriteLine("\nPressione Enter para sair...");
+    Console.ReadLine();
   }
 
   static async Task ListPokemonsAsync()

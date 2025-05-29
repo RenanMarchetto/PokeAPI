@@ -9,6 +9,7 @@ class Program
 {
   static async Task Main()
   {
+    // Listar Pokemons da primeira geração no Console
     await ListPokemonsAsync();
   }
 
